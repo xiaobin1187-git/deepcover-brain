@@ -1,0 +1,41 @@
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# Build
+target/
+*.jar
+*.war
+*.class
+
+# Logs
+*.log
+*.log.*
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config (local overrides)
+config/
+deploy/config/
+deploy/logs/
+
+# Internal (removed during OSS preparation)
+**/mandarin/**
+**/metadata/**
+eapr/
+**/mq_backup_db/**
+
+# Claude
+.claude/
+
+# Maven Wrapper (optional)
+.mvn/wrapper/maven-wrapper.jar
