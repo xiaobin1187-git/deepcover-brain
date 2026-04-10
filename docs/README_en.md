@@ -1,18 +1,19 @@
 [Chinese](../README.md) | **English** | [Japanese](README_ja.md) | [French](README_fr.md) | [Portuguese](README_pt.md) | [Russian](README_ru.md)
 
 # DeepCover Brain
+<img src="assets/logo.svg" alt="DeepCover Logo" width="128" height="128" align="right">
 
 [![Java 8](https://img.shields.io/badge/Java-8-green.svg)](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 [![Maven](https://img.shields.io/badge/Maven-3.5+-blue.svg)](https://maven.apache.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Spring Boot 2.6.13](https://img.shields.io/badge/Spring%20Boot-2.6.13-brightgreen.svg)](https://spring.io/projects/spring-boot)
 
-DeepCover Brain is the analysis center module of the [DeepCover Precision Testing Platform](https://github.com/deepcover), responsible for code diff analysis, scenario modeling, trace analysis, and data replay. It works in conjunction with [DeepCover Agent](https://github.com/deepcover/deepcover-agent) (code coverage collection) and [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter) (data processing center) to provide a complete precision testing solution.
+DeepCover Brain is the analysis center module of the [DeepCover Precision Analysis Platform](https://github.com/deepcover), responsible for code diff analysis, scenario modeling, trace analysis, and data replay. It works in conjunction with [DeepCover Agent](https://github.com/deepcover/deepcover-agent) (precision data collection) and [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter) (data processing center) to provide a complete precision analysis solution.
 
 ## Features
 
 - **Code Diff Analysis (DiffAnalyse)** - Analyzes differences between code versions and combines risk ratings to assist testing decisions
-- **Scenario Modeling & Management** - Create and manage test scenarios, associate code coverage data
+- **Scenario Modeling & Management** - Create and manage test scenarios, associate precision analysis data
 - **Trace Analysis** - Trace-based link tracking and call chain visualization
 - **Message Queue Consumption (RocketMQ)** - Asynchronously receive and process collected data from Agent
 - **Multi-Datasource Architecture** - Separate primary database and complexity analysis database for independent management and scaling
