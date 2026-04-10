@@ -1,18 +1,19 @@
 [Chinese](../README.md) | [English](README_en.md) | **Japanese** | [French](README_fr.md) | [Portuguese](README_pt.md) | [Russian](README_ru.md)
 
 # DeepCover Brain
+<img src="assets/logo.svg" alt="DeepCover Logo" width="128" height="128" align="right">
 
 [![Java 8](https://img.shields.io/badge/Java-8-green.svg)](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 [![Maven](https://img.shields.io/badge/Maven-3.5+-blue.svg)](https://maven.apache.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Spring Boot 2.6.13](https://img.shields.io/badge/Spring%20Boot-2.6.13-brightgreen.svg)](https://spring.io/projects/spring-boot)
 
-DeepCover Brain は [DeepCover プレシジョンテストプラットフォーム](https://github.com/deepcover) の分析センターモジュールであり、コード差分分析、シナリオモデリング、トレース分析、データリプレイを担当します。[DeepCover Agent](https://github.com/deepcover/deepcover-agent)（コードカバレッジ収集）および [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter)（データ処理センター）と連携し、完全なプレシジョンテストソリューションを提供します。
+DeepCover Brain は [DeepCover プレシジョン分析プラットフォーム](https://github.com/deepcover) の分析センターモジュールであり、コード差分分析、シナリオモデリング、トレース分析、データリプレイを担当します。[DeepCover Agent](https://github.com/deepcover/deepcover-agent)（プレシジョンデータ収集）および [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter)（データ処理センター）と連携し、完全なプレシジョン分析ソリューションを提供します。
 
 ## 機能概要
 
 - **コード差分分析 (DiffAnalyse)** - コードバージョン間の差分を分析し、リスク評価と組み合わせてテスト意思決定を支援
-- **シナリオモデリングと管理** - テストシナリオの作成と管理、コードカバレッジデータとの関連付け
+- **シナリオモデリングと管理** - テストシナリオの作成と管理、プレシジョン分析データとの関連付け
 - **トレース分析** - トレース情報に基づくリンクトラッキングとコールチェーンの可視化
 - **メッセージキュー消費 (RocketMQ)** - Agent からの収集データを非同期で受信・処理
 - **マルチデータソースアーキテクチャ** - プライマリデータベースと複雑度分析データベースの分離による独立した管理とスケーリング
