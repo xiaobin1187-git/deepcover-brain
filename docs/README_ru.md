@@ -1,18 +1,19 @@
 [Chinese](../README.md) | [English](README_en.md) | [Japanese](README_ja.md) | [French](README_fr.md) | [Portuguese](README_pt.md) | **Russian**
 
 # DeepCover Brain
+<img src="assets/logo.svg" alt="DeepCover Logo" width="128" height="128" align="right">
 
 [![Java 8](https://img.shields.io/badge/Java-8-green.svg)](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 [![Maven](https://img.shields.io/badge/Maven-3.5+-blue.svg)](https://maven.apache.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Spring Boot 2.6.13](https://img.shields.io/badge/Spring%20Boot-2.6.13-brightgreen.svg)](https://spring.io/projects/spring-boot)
 
-DeepCover Brain - модуль центра анализа [платформы точного тестирования DeepCover](https://github.com/deepcover), отвечающий за анализ различий в коде, моделирование сценариев, анализ трассировок и воспроизведение данных. Он работает совместно с [DeepCover Agent](https://github.com/deepcover/deepcover-agent) (сбор покрытия кода) и [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter) (центр обработки данных), обеспечивая полное решение для точного тестирования.
+DeepCover Brain - модуль центра анализа [платформы точного анализа DeepCover](https://github.com/deepcover), отвечающий за анализ различий в коде, моделирование сценариев, анализ трассировок и воспроизведение данных. Он работает совместно с [DeepCover Agent](https://github.com/deepcover/deepcover-agent) (сбор данных точного анализа) и [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter) (центр обработки данных), обеспечивая полное решение для точного анализа.
 
 ## Функциональные возможности
 
 - **Анализ различий кода (DiffAnalyse)** - Анализ различий между версиями кода с учетом оценки рисков для помощи в принятии решений о тестировании
-- **Моделирование и управление сценариями** - Создание и управление тестовыми сценариями, привязка данных покрытия кода
+- **Моделирование и управление сценариями** - Создание и управление тестовыми сценариями, привязка данных точного анализа
 - **Анализ трассировок** - Отслеживание связей на основе trace-информации и визуализация цепочек вызовов
 - **Потребление очередей сообщений (RocketMQ)** - Асинхронный прием и обработка собранных данных от Agent
 - **Мультиисточниковая архитектура данных** - Разделение основной базы данных и базы анализа сложности для независимого управления и масштабирования
