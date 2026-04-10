@@ -1,18 +1,19 @@
 [Chinese](../README.md) | [English](README_en.md) | [Japanese](README_ja.md) | [French](README_fr.md) | **Portuguese** | [Russian](README_ru.md)
 
 # DeepCover Brain
+<img src="assets/logo.svg" alt="DeepCover Logo" width="128" height="128" align="right">
 
 [![Java 8](https://img.shields.io/badge/Java-8-green.svg)](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 [![Maven](https://img.shields.io/badge/Maven-3.5+-blue.svg)](https://maven.apache.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Spring Boot 2.6.13](https://img.shields.io/badge/Spring%20Boot-2.6.13-brightgreen.svg)](https://spring.io/projects/spring-boot)
 
-DeepCover Brain e o modulo do centro de analise da [plataforma de teste de precisao DeepCover](https://github.com/deepcover), responsavel pela analise de diferencas de codigo, modelagem de cenarios, analise de rastreamento e reproducao de dados. Ele trabalha em conjunto com o [DeepCover Agent](https://github.com/deepcover/deepcover-agent) (coleta de cobertura de codigo) e o [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter) (centro de processamento de dados) para fornecer uma solucao completa de teste de precisao.
+DeepCover Brain e o modulo do centro de analise da [plataforma de analise de precisao DeepCover](https://github.com/deepcover), responsavel pela analise de diferencas de codigo, modelagem de cenarios, analise de rastreamento e reproducao de dados. Ele trabalha em conjunto com o [DeepCover Agent](https://github.com/deepcover/deepcover-agent) (coleta de dados de precisao) e o [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter) (centro de processamento de dados) para fornecer uma solucao completa de analise de precisao.
 
 ## Funcionalidades
 
 - **Analise de Diferencas de Codigo (DiffAnalyse)** - Analisa diferencas entre versoes de codigo e combina avaliacoes de risco para auxiliar na decisao de testes
-- **Modelagem e Gerenciamento de Cenarios** - Criar e gerenciar cenarios de teste, associar dados de cobertura de codigo
+- **Modelagem e Gerenciamento de Cenarios** - Criar e gerenciar cenarios de teste, associar dados de analise de precisao
 - **Analise de Rastreamento** - Rastreamento de links baseado em traces e visualizacao de cadeias de chamadas
 - **Consumo de Filas de Mensagens (RocketMQ)** - Receber e processar assincronamente os dados coletados do Agent
 - **Arquitetura Multi-Fonte de Dados** - Separacao do banco de dados principal e do banco de analise de complexidade para gerenciamento e escalabilidade independentes
