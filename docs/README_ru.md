@@ -1,7 +1,7 @@
+<div align="center"><img src="docs/assets/logo.svg" alt="DeepCover" width="96" height="96"></div>
 [Chinese](../README.md) | [English](README_en.md) | [Japanese](README_ja.md) | [French](README_fr.md) | [Portuguese](README_pt.md) | **Russian**
 
 # DeepCover Brain
-<img src="assets/logo.svg" alt="DeepCover Logo" width="128" height="128" align="right">
 
 [![Java 8](https://img.shields.io/badge/Java-8-green.svg)](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 [![Maven](https://img.shields.io/badge/Maven-3.5+-blue.svg)](https://maven.apache.org/)
