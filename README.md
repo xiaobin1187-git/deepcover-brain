@@ -1,4 +1,5 @@
 <p align="center"><img src="docs/assets/logo.svg" alt="DeepCover" width="96" height="96"></p>
+
 # DeepCover Brain
 
 [English](docs/README_en.md) | [日本語](docs/README_ja.md) | [Français](docs/README_fr.md) | [Português](docs/README_pt.md) | [Русский](docs/README_ru.md)
