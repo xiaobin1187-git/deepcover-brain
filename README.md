@@ -1,4 +1,5 @@
 # DeepCover Brain
+<img src="docs/assets/logo.svg" alt="DeepCover Logo" width="128" height="128" align="right">
 
 [English](docs/README_en.md) | [日本語](docs/README_ja.md) | [Français](docs/README_fr.md) | [Português](docs/README_pt.md) | [Русский](docs/README_ru.md)
 
@@ -7,12 +8,12 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Spring Boot 2.6.13](https://img.shields.io/badge/Spring%20Boot-2.6.13-brightgreen.svg)](https://spring.io/projects/spring-boot)
 
-DeepCover Brain 是 [DeepCover 精准测试平台](https://github.com/deepcover) 的分析中心模块，负责代码差异分析、场景建模、链路追踪分析和数据回放。它与 [DeepCover Agent](https://github.com/deepcover/deepcover-agent)（代码覆盖率采集）和 [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter)（数据处理中心）协同工作，提供完整的精准测试解决方案。
+DeepCover Brain 是 [DeepCover 精准分析平台](https://github.com/deepcover) 的分析中心模块，负责代码差异分析、场景建模、链路追踪分析和数据回放。它与 [DeepCover Agent](https://github.com/deepcover/deepcover-agent)（精准数据采集）和 [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter)（数据处理中心）协同工作，提供完整的精准分析解决方案。
 
 ## 功能特性
 
 - **代码差异分析 (DiffAnalyse)** - 分析代码版本间的差异，结合风险评级辅助测试决策
-- **场景建模与管理** - 创建和管理测试场景，关联代码覆盖率数据
+- **场景建模与管理** - 创建和管理测试场景，关联精准分析数据
 - **链路追踪分析** - 基于 trace 信息的链路追踪和调用链路可视化
 - **消息队列消费 (RocketMQ)** - 异步接收和处理来自 Agent 的采集数据
 - **多数据源架构** - 主库与复杂度分析库分离，独立管理和扩展
