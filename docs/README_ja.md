@@ -1,4 +1,4 @@
-<div align="center"><img src="docs/assets/logo.svg" alt="DeepCover" width="96" height="96"></div>
+<p align="center"><img src="docs/assets/logo.svg" alt="DeepCover" width="96" height="96"></p>
 [Chinese](../README.md) | [English](README_en.md) | **Japanese** | [French](README_fr.md) | [Portuguese](README_pt.md) | [Russian](README_ru.md)
 
 # DeepCover Brain
