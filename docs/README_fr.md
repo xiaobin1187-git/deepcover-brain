@@ -1,18 +1,19 @@
 [Chinese](../README.md) | [English](README_en.md) | [Japanese](README_ja.md) | **French** | [Portuguese](README_pt.md) | [Russian](README_ru.md)
 
 # DeepCover Brain
+<img src="assets/logo.svg" alt="DeepCover Logo" width="128" height="128" align="right">
 
 [![Java 8](https://img.shields.io/badge/Java-8-green.svg)](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 [![Maven](https://img.shields.io/badge/Maven-3.5+-blue.svg)](https://maven.apache.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Spring Boot 2.6.13](https://img.shields.io/badge/Spring%20Boot-2.6.13-brightgreen.svg)](https://spring.io/projects/spring-boot)
 
-DeepCover Brain est le module du centre d'analyse de la [plateforme de test de precision DeepCover](https://github.com/deepcover), responsable de l'analyse des differences de code, de la modelisation des scenarios, de l'analyse des traces et de la relecture des donnees. Il fonctionne conjointement avec [DeepCover Agent](https://github.com/deepcover/deepcover-agent) (collecte de couverture de code) et [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter) (centre de traitement des donnees) pour fournir une solution complete de test de precision.
+DeepCover Brain est le module du centre d'analyse de la [plateforme d'analyse de precision DeepCover](https://github.com/deepcover), responsable de l'analyse des differences de code, de la modelisation des scenarios, de l'analyse des traces et de la relecture des donnees. Il fonctionne conjointement avec [DeepCover Agent](https://github.com/deepcover/deepcover-agent) (collecte de donnees de precision) et [DeepCover DataCenter](https://github.com/deepcover/deepcover-datacenter) (centre de traitement des donnees) pour fournir une solution complete d'analyse de precision.
 
 ## Fonctionnalites
 
 - **Analyse des differences de code (DiffAnalyse)** - Analyse les differences entre les versions de code et combine les evaluations de risque pour aider a la decision de test
-- **Modelisation et gestion des scenarios** - Creer et gerer des scenarios de test, associer les donnees de couverture de code
+- **Modelisation et gestion des scenarios** - Creer et gerer des scenarios de test, associer les donnees d'analyse de precision
 - **Analyse des traces** - Suivi des liens base sur les traces et visualisation des chaines d'appels
 - **Consommation de files de messages (RocketMQ)** - Reception et traitement asynchrones des donnees collectees depuis l'Agent
 - **Architecture multi-sources de donnees** - Separation de la base de donnees principale et de la base d'analyse de complexite pour une gestion et une mise a l'echelle independantes
