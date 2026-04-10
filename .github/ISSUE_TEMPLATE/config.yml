@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/deepcover/deepcover-brain#readme
+    about: Check the README and documentation first.
